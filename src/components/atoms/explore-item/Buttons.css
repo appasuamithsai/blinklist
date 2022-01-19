@@ -1,0 +1,9 @@
+.demo{
+      
+        font-weight:'400';
+        font-style:"Normal";
+        font-size:'16px';
+}
+.demo:hover{
+    color:'#0365F2';
+}
