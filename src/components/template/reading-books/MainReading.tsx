@@ -13,10 +13,10 @@ interface Books {
   handleFinish:(item:string)=>void;
 }
 
-const main = (props:Books) => {
+const MainReading = (props:Books) => {
     return <div>
         <CardMui handleReadAgain={props.handleReadAgain} handleFinish={props.handleFinish} details={props.currentReading} />
     </div>;
 }
 
-export default main;
+export default MainReading;
