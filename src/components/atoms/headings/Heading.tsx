@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-import { ThemeProvider } from "@mui/material/styles";
 import customStyle from "../../../Theme";
 
 
