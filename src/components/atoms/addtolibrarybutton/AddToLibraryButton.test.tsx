@@ -3,6 +3,7 @@ import React from 'react';
 import {cleanup, render} from '@testing-library/react';
 import AddToLibraryButton from './AddToLibraryButton';
 import { MemoryRouter } from 'react-router-dom';
+import "@testing-library/jest-dom";
 
 afterEach(cleanup);
 it('Checking the AddToLibraray',()=>{
