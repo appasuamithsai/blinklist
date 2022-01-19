@@ -3,6 +3,8 @@ import {render,screen} from '@testing-library/react';
 import Buttons from './Buttons';
 import { MemoryRouter } from 'react-router-dom';
 import NavDown from '../nav/nav-down/NavDown';
+import '@testing-library/jest-dom';
+
 it('Checking the KeyIdeas',()=>{
     const fakeProps={
         handleChange:()=>{console.log("testing");},

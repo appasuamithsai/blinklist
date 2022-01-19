@@ -3,7 +3,7 @@ import React from "react";
 import {cleanup, render} from "@testing-library/react";
 import FooterMain from "./FooterMain"; 
 import { MemoryRouter } from 'react-router-dom';
-
+import "@testing-library/jest-dom";
 afterEach(cleanup);
 test("Checking FooterMain",()=>{
   const {getByTestId}=render(<MemoryRouter><FooterMain /></MemoryRouter>);

@@ -1,6 +1,7 @@
 import React from "react";
 import {cleanup, render,screen} from "@testing-library/react";
 import BannerOne from "./BannerOne";
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Checking BannerOne",()=>{

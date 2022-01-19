@@ -8,7 +8,7 @@ const list=["About","Careers","partners","Code of Conduct"];
 
 const FooterNavListThree = () => {
     let count=0;
-    return (<Grid container direction="column">
+    return (<Grid container direction="column" data-testid="FooterNavList3">
         <Grid item>
         <NavHead name="Company"/>
         </Grid>

@@ -2,6 +2,7 @@
 import React from 'react';
 import {cleanup, render} from '@testing-library/react';
 import BannerImage from './BannerImage';
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Checking Banner Image",()=>{

@@ -2,6 +2,8 @@
 import React from "react";
 import {cleanup, render,screen} from "@testing-library/react";
 import FinishedButton from "./FinishedButton";
+import '@testing-library/jest-dom';
+
 afterEach(cleanup);
 test("Checking FinishedButton",()=>{
     const fakeFunction=()=>{

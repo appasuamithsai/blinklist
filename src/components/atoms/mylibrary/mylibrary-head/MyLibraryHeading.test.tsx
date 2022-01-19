@@ -2,7 +2,8 @@
 import React from "react";
 import {cleanup, render,screen} from "@testing-library/react";
 import MyLibraryHeading from "./MyLibraryHeading";
- 
+import '@testing-library/jest-dom';
+
 afterEach(cleanup);
 test("Checking MyLibraryHeading",()=>{
    render(<MyLibraryHeading />);

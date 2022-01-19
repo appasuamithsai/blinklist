@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import customStyle from "../../../../Theme";
+
 const KeyIdeas = () => {
   const classes=customStyle();
   return (

@@ -8,7 +8,7 @@ const list=["Book lists","What is Nonfiction?","What to read next?","Benefits of
 
 const FooterNavListOne = () => {
     let count=1;
-    return (<Grid container direction="column">
+    return (<Grid container direction="column" data-testid="FooterNavList1">
         <Grid item>
         <NavHead name="Editorial"/>
         </Grid>

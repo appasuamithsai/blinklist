@@ -3,6 +3,7 @@ import React from "react";
 import {cleanup, render,screen} from "@testing-library/react";
 import BlinkImage from "./BlinkImage";
 import { MemoryRouter } from 'react-router-dom';
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Checking BlinkImage",()=>{

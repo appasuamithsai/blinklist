@@ -325,6 +325,10 @@ var customStyle = makeStyles({
     marginTop: "48px",
     marginBottom: "38px",
   },
+  cardGridOne: {
+    margin: " 16px 0px 0px 16px",
+  },
+  cardGridTwo: { marginLeft: "17.67px", marginTop: "17.67px" },
 });
 
 export const theme = createTheme({

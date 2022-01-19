@@ -9,6 +9,5 @@ afterEach(cleanup);
 it('Checking the AddToLibraray',()=>{
     const {getByTestId}=render(<MemoryRouter> <AddToLibraryButton /> </MemoryRouter>);
     const btn=getByTestId("AddToLibrary");
-    // console.log(btn);
     expect(btn).toBeInTheDocument();
 });

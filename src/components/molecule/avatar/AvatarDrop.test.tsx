@@ -2,6 +2,7 @@
 import React from 'react';
 import {cleanup, render} from '@testing-library/react';
 import AvatarDrop from './AvatarDrop';
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 it('Checking the Avatar Drop',()=>{

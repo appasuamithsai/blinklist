@@ -2,7 +2,7 @@ import { Button  } from "@mui/material";
 
 import customStyle from "../../../../../Theme";
 
-
+import React from 'react';
 const ReadNow = () => {
   const classes=customStyle();
   return (

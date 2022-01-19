@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import customStyle from "../../../../Theme";
-
+import React from 'react';
 const BookTitle = () => {
   const classes=customStyle();
   return (

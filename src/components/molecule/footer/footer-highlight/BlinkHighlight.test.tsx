@@ -3,6 +3,7 @@ import React from "react";
 import {cleanup, render} from "@testing-library/react";
 import BlinkHighlight from "./BlinkHighlight";
 import { MemoryRouter } from 'react-router-dom';
+import "@testing-library/jest-dom";
 afterEach(cleanup);
 test("Checking BlinkHighlight",()=>{
    const {getByTestId}=render(<MemoryRouter> <BlinkHighlight /> </MemoryRouter>);

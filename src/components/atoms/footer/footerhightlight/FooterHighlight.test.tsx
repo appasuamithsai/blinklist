@@ -2,6 +2,7 @@
 import React  from "react";
 import {render,cleanup} from '@testing-library/react';
 import FooterHighlight from "./FooterHighlight";
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Testing FooterHighlight",()=>{

@@ -1,6 +1,6 @@
 import { Button  } from "@mui/material";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-
+import React from 'react';
 import customStyle from "../../../../../Theme";
 const SendToKindle = () => {
   const classes=customStyle();

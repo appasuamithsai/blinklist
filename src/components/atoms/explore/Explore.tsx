@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import customStyle from "../../../Theme";
 import NavDown from "../nav/nav-down/NavDown";
 import NavUp from "../nav/nav-up/NavUp";
-
+import React from 'react';
 interface Handle{
     handleChange:()=>void;
     icon:boolean;

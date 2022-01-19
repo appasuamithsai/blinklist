@@ -3,6 +3,7 @@ import BookTitle from "../../atoms/booktitle/BookTitle";
 import AuthorName from "../../atoms/author/AuthorName";
 import ReadTime from "../read-time/ReadTime";
 import { CardMedia, Grid } from "@mui/material";
+import customStyle from "../../../Theme";
 
 interface Data{
     image:string,
@@ -13,9 +14,10 @@ interface Data{
 
 
 const CardHead = (props:Data) => {
+  const classes=customStyle();
   return (
     <>
-      <Grid item>
+      <Grid item data-testid="CardHead">
         <CardMedia
           component="img"
           height="292px"
@@ -30,18 +32,13 @@ const CardHead = (props:Data) => {
 
       <Grid
         item
-        sx={{
-          margin: " 16px 0px 0px 16px",
-        }}
+        className={classes.cardGridOne}
       >
         <AuthorName authName={props.authorName} />
       </Grid>
       <Grid
         item
-        sx={{
-          marginLeft: "17.67px",
-          marginTop: "17.67px",
-        }}
+        className={classes.cardGridTwo}
       >
         <ReadTime time={props.time} />
       </Grid>

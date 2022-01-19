@@ -2,7 +2,8 @@
 import React  from "react";
 import {render,cleanup} from '@testing-library/react';
 import NavDown from "./NavDown";
- 
+import '@testing-library/jest-dom';
+
 afterEach(cleanup);
 test("Testing NavDown",()=>{
    const {getByTestId}=render(<NavDown />);

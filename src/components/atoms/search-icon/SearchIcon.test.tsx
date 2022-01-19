@@ -2,7 +2,8 @@
 import React  from "react";
 import {render,cleanup} from '@testing-library/react';
 import SearchIcon from "./SearchIcon";
- 
+import '@testing-library/jest-dom';
+
 afterEach(cleanup);
 test("Testing SearchIcon",()=>{
    const {getByTestId}=render(<SearchIcon />);

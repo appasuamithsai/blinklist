@@ -2,6 +2,7 @@
 import React from 'react';
 import {cleanup, render,screen} from '@testing-library/react';
 import ReadNow from './ReadNow';
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 it('Checking the ReadNow',()=>{

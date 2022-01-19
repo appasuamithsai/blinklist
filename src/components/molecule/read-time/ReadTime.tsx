@@ -1,7 +1,7 @@
 import { Grid, Typography } from '@mui/material';
 import Timer from '../../atoms/timer/Timer';
 import customStyle from '../../../Theme';
-
+import React from 'react';
 interface TimeDet{
     time:string,
 }

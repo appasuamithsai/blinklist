@@ -2,7 +2,7 @@
 import React from "react";
 import {cleanup, render,screen} from "@testing-library/react";
 import ExploreMenu from "./ExploreMenu";
-
+import "@testing-library/jest-dom";
 import { MemoryRouter } from 'react-router-dom'
 afterEach(cleanup);
 test("Checking ExploreMenu",()=>{

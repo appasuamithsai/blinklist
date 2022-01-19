@@ -8,7 +8,7 @@ const list=["Pricing","Blinkist business","Gift cards","Blinkist magaine","Conta
 
 const FooterNavListTwo=() => {
     let count=1;
-    return (<Grid container direction="column">
+    return (<Grid container direction="column" data-testid="FooterNavList2">
         <Grid item>
         <NavHead name="Useful links"/>
         </Grid>

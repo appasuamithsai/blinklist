@@ -2,6 +2,7 @@
 import React  from "react";
 import {render,cleanup} from '@testing-library/react';
 import BookNote from "./BookNote";
+import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Testing BookNote",()=>{
