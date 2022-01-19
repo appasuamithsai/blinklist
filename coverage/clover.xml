@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642617085017" clover="3.2.0">
-  <project timestamp="1642617085018" name="All files">
-    <metrics statements="152" coveredstatements="145" conditionals="10" coveredconditionals="5" methods="56" coveredmethods="50" elements="218" coveredelements="200" complexity="0" loc="152" ncloc="152" packages="44" files="46" classes="46"/>
+<coverage generated="1642618943252" clover="3.2.0">
+  <project timestamp="1642618943253" name="All files">
+    <metrics statements="165" coveredstatements="158" conditionals="12" coveredconditionals="6" methods="61" coveredmethods="55" elements="238" coveredelements="219" complexity="0" loc="165" ncloc="165" packages="47" files="49" classes="49"/>
     <package name="src">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Theme.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/Theme.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="40" type="stmt"/>
-        <line num="334" count="40" type="stmt"/>
+        <line num="4" count="43" type="stmt"/>
+        <line num="355" count="43" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.addtolibrarybutton">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="AddToLibraryButton.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/addtolibrarybutton/AddToLibraryButton.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.author">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="AuthorName.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/author/AuthorName.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.avatar">
@@ -76,47 +76,47 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookNote.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/bookpagedetails/booknote/BookNote.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.bookoptions.finishbutton">
       <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
       <file name="FinishReading.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/bookpagedetails/bookoptions/finishbutton/FinishReading.tsx">
         <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.bookoptions.kindlebutton">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="SendToKindle.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/bookpagedetails/bookoptions/kindlebutton/SendToKindle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.bookoptions.readbutton">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ReadNow.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/bookpagedetails/bookoptions/readbutton/ReadNow.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.booktitle">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookTitle.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/bookpagedetails/booktitle/BookTitle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.keyideas">
@@ -132,9 +132,9 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookTitle.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/booktitle/BookTitle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.explore">
@@ -161,7 +161,7 @@
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="FinishedButton.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/finished-button/FinishedButton.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
@@ -225,7 +225,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="CurrentBar.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/mui-bar/current-bar/CurrentBar.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -234,9 +234,9 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FinishedBar.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/mui-bar/finished-bar/FinishedBar.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.mylibrary.mylibrary-head">
@@ -277,9 +277,9 @@
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="ReadAgainButton.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/readagainbutton/ReadAgainButton.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
     </package>
@@ -295,8 +295,8 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Timer.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/atoms/timer/Timer.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecule.avatar">
@@ -343,9 +343,9 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="CardHead.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/molecule/card/CardHead.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecule.explore-items.explore-grid">
@@ -419,9 +419,40 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ReadTime.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/molecule/read-time/ReadTime.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organism.bookdetailsgrid">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BookDetailsGrid.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/organism/bookdetailsgrid/BookDetailsGrid.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organism.cards.card-add">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="CardAdd.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/organism/cards/card-add/CardAdd.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organism.cards.card-mui">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="CardMui.tsx" path="/home/amitsa/Documents/blinklist-App/demo-blinklist/src/components/organism/cards/card-mui/CardMui.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
       </file>
     </package>
   </project>

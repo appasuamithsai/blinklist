@@ -18,11 +18,16 @@ const CardAdd = (props: Mui) => {
   const bookCards = props.details.map((e) => (
     <Grid item xs={4}>
       <Card className={classes.cardStyle}>
-        <Grid container direction="column" >
+        <Grid container direction="column">
           <Grid item>
-            <CardHead image={e.image} bookName={e.name} authorName={e.author} time={e.time}/>
+            <CardHead
+              image={e.image}
+              bookName={e.name}
+              authorName={e.author}
+              time={e.time}
+            />
           </Grid>
-          <Grid item sx={{ marginTop: "10px" }}>
+          <Grid item className={classes.cardAddGridTwo}>
             <AddToLibraryButton />
           </Grid>
         </Grid>
@@ -35,7 +40,8 @@ const CardAdd = (props: Mui) => {
       columnSpacing="20px"
       rowSpacing="25px"
       container
-      sx={{ marginTop: "25px", marginLeft: "440px", width: "1000px" }}
+      className={classes.cardAddGridOne}
+      data-testid="CardAdd"
     >
       {bookCards}
     </Grid>

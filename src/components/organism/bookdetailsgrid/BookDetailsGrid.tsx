@@ -8,6 +8,7 @@ import SendToKindle from "../../atoms/bookpagedetails/bookoptions/kindlebutton/S
 import ReadNow from "../../atoms/bookpagedetails/bookoptions/readbutton/ReadNow";
 import BookTitle from "../../atoms/bookpagedetails/booktitle/BookTitle";
 import bookimage from "../../atoms/assets/bookimage.png";
+import customStyle from "../../../Theme";
 
 
 
@@ -19,8 +20,9 @@ interface Handle{
 
 
 const BookDetailsGrid = (props:Handle) => {
+  const classes=customStyle();
   return (
-    <Box sx={{marginTop:'40px'}}>
+    <Box className={classes.bookDetailsbox} data-testid="BookDetailsGrid">
       <Grid container columnSpacing='125px' justifyContent="center">
         <Grid item>
           <Grid container>
@@ -39,7 +41,7 @@ const BookDetailsGrid = (props:Handle) => {
                   <ReadTime time="15-minute read" />
                 </Grid>
 
-                <Grid item sx={{ marginTop: "83px" }}>
+                <Grid item  className={classes.bookDetailsGrid}>
                   <Grid container columnSpacing="32px">
                     <Grid item>
                       <ReadNow />

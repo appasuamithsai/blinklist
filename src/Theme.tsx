@@ -328,7 +328,28 @@ var customStyle = makeStyles({
   cardGridOne: {
     margin: " 16px 0px 0px 16px",
   },
-  cardGridTwo: { marginLeft: "17.67px", marginTop: "17.67px" },
+  cardGridTwo: {
+    marginLeft: "17.67px",
+    marginTop: "17.67px",
+  },
+  bookDetailsbox: {
+    marginTop: "40px",
+  },
+  bookDetailsGrid: { marginTop: "83px" },
+  cardAddGridOne: {
+    marginTop: "25px",
+    marginLeft: "440px",
+    width: "1000px",
+  },
+  cardAddGridTwo: {
+    marginTop: "10px"
+  },
+  cardMuiGrid:{
+    width:'1000px'
+  },
+  cardMuiCard:{
+    borderRadius: "8px",
+  }
 });
 
 export const theme = createTheme({

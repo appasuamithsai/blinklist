@@ -5,6 +5,8 @@ import CurrentBar from "../../../atoms/mui-bar/current-bar/CurrentBar";
 import FinishedBar from "../../../atoms/mui-bar/finished-bar/FinishedBar";
 import FinishedButton from "../../../atoms/finished-button/FinishedButton";
 import CardHead from "../../../molecule/card/CardHead";
+import customStyle from "../../../../Theme";
+import React from 'react';
 interface Mui {
   details: {
     image: string;
@@ -18,10 +20,10 @@ interface Mui {
 }
 
 const CardMui = (props: Mui) => {
+  const classes=customStyle();
   const bookCards = props.details.map((e) => (
     <Grid item key={e.name}>
-      <Card sx={{
-        borderRadius: "8px",}}>
+      <Card className={classes.cardMuiCard}>
         <Grid container direction="column">
           <Grid item>
             <CardHead image={e.image} bookName={e.name} authorName={e.author} time={e.time} />
@@ -35,7 +37,7 @@ const CardMui = (props: Mui) => {
   ));
 
   return (
-    <Grid columnSpacing="32px" sx={{width:'1000px'}} rowSpacing="32px" container key="name">
+    <Grid data-testid="CardMui" columnSpacing="32px" className={classes.cardMuiGrid} rowSpacing="32px" container key="name">
       {bookCards}
     </Grid>
   );
