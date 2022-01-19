@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import customStyle from "../../../../Theme";
-const Bar = () => {
+const FinishedBar = () => {
   const classes=customStyle();
   return (
     <Typography
@@ -11,4 +11,4 @@ const Bar = () => {
   );
 };
 
-export default Bar;
+export default FinishedBar;

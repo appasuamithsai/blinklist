@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Buttons from "../../../atoms/explore-item/Buttons";
 import RocketLaunchOutlinedIcon from "@mui/icons-material/RocketLaunchOutlined";
