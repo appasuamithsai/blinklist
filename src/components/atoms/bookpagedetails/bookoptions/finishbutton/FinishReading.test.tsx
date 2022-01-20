@@ -6,11 +6,21 @@ import { MemoryRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 
 afterEach(cleanup);
-it('Checking the FinishReading',()=>{
+it('Checking the FinishReading for true',()=>{
     const func=()=>{
         return "hello";
     };
     render(<MemoryRouter> <FinishReading bookName="Harry Potter" btn={true} handleFinish={func} /> </MemoryRouter>);
+    const btn=screen.getByText("Finished Reading");
+
+    expect(btn).toBeInTheDocument();
+});
+
+it('Checking the FinishReading for false',()=>{
+    const func=()=>{
+        return "hello";
+    };
+    render(<MemoryRouter> <FinishReading bookName="Harry Potter" btn={false} handleFinish={func} /> </MemoryRouter>);
     const btn=screen.getByText("Finished Reading");
 
     expect(btn).toBeInTheDocument();

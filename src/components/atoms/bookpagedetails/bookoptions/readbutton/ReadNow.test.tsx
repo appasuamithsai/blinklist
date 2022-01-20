@@ -1,6 +1,6 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from 'react';
-import {cleanup, render,screen} from '@testing-library/react';
+import {cleanup, render,screen,fireEvent} from '@testing-library/react';
 import ReadNow from './ReadNow';
 import '@testing-library/jest-dom';
 
