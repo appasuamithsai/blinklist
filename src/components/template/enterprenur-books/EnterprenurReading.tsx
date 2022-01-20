@@ -6,7 +6,7 @@ import book4 from "../../atoms/assets/book4.png";
 import book5 from "../../atoms/assets/book5.png";
 import bookimage from "../../atoms/assets/bookimage.png";
 import CardAdd from "../../organism/cards/card-add/CardAdd";
-
+import React from 'react';
 const readingbooks= [
   {image:bookimage, name:"Beyond Entrepreneurship 2.0", author:"Erica Keswin", time :"13-minute read"},
   {image:book1, name:"Bring Your Human to Work", author:"Erica Keswin", time :"13-minute read"},
