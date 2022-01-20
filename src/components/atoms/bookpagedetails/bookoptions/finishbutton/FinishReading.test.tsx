@@ -17,8 +17,8 @@ it('Checking the FinishReading for true',()=>{
 });
 
 it('Checking the FinishReading for false',()=>{
-    const func=()=>{
-        return "hello";
+    const func=(item:string)=>{
+        return "Beyond Entrepreneurship 2.0";
     };
     render(<MemoryRouter> <FinishReading bookName="Harry Potter" btn={false} handleFinish={func} /> </MemoryRouter>);
     const btn=screen.getByText("Finished Reading");
