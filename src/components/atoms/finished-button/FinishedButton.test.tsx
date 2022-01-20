@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 
 afterEach(cleanup);
 test("Checking FinishedButton",()=>{
-    const fakeFunction=()=>{
+    const fakeFunction=(item:string)=>{
         console.log("Fake Function");
     }
   render(<FinishedButton name="Harry" handleFinish={fakeFunction} />);
