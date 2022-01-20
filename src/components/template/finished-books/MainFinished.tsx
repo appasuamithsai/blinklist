@@ -15,7 +15,7 @@ interface Books {
 
 const MainFinished = (props:Books) => {
   return (
-    <div>
+    <div data-testid="MainFinished">
       <CardMui  handleReadAgain={props.handleReadAgain} handleFinish={props.handleFinish} details={props.finishedReading} />
     </div>
   );
