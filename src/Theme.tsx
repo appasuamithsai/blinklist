@@ -91,7 +91,7 @@ var customStyle = makeStyles({
     fontWeight: "400",
     color: "#03314B",
     marginTop: "60px",
-    marginLeft: "455px",
+    marginLeft: "495px",
   },
   bookTitleOne: {
     fontStyle: "normal",
@@ -126,7 +126,7 @@ var customStyle = makeStyles({
     fontStyle: "normal",
     fontSize: "14px",
     fontWeight: 400,
-    margin: " 16px 0px 0px 16px",
+    margin: " 16px 0px 0px 60px",
     color: "#6D787E",
   },
   keyBoardArrow: {
@@ -168,7 +168,7 @@ var customStyle = makeStyles({
   },
   head: {
     marginTop: "59px",
-    marginLeft: "455px",
+    marginLeft: "485px",
     fontSize: "24px",
     fontWeight: 700,
     color: "#03314B",
@@ -184,7 +184,7 @@ var customStyle = makeStyles({
   },
   myLibraryHead: {
     marginTop: "59px",
-    marginLeft: "445px",
+    marginLeft: "485px",
     fontSize: "36px",
     fontWeight: 700,
     color: "#03314B",
@@ -204,7 +204,7 @@ var customStyle = makeStyles({
   },
   mainBanner: {
     backgroundColor: "#F1F6F4",
-    marginLeft: "455px",
+    marginLeft: "485px",
     width: "920px",
     marginTop: "32px",
   },
@@ -236,13 +236,13 @@ var customStyle = makeStyles({
     left: 0,
   },
   bookDetalisTabsOne: {
-    marginLeft: "450px",
+    marginLeft: "493px",
     marginTop: "40px",
   },
   bookDetalisTabsTwo: {
     padding: "0px",
     marginTop: "20px",
-    marginLeft: "450px",
+    marginLeft: "493px",
   },
   bookDetalisTabsTypo: {
     fontSize: "16px",
@@ -256,7 +256,7 @@ var customStyle = makeStyles({
     width: "100%",
   },
   exploreBoxTwo: {
-    paddingLeft: "455px",
+    paddingLeft: "485px",
     backgroundColor: "#F1F6F4",
     paddingBottom: "15px",
   },
@@ -338,18 +338,44 @@ var customStyle = makeStyles({
   bookDetailsGrid: { marginTop: "83px" },
   cardAddGridOne: {
     marginTop: "25px",
-    marginLeft: "440px",
+    marginLeft: "465px",
     width: "1000px",
   },
   cardAddGridTwo: {
-    marginTop: "10px"
+    marginTop: "10px",
   },
-  cardMuiGrid:{
-    width:'1000px'
+  cardMuiGrid: {
+    width: "1000px",
   },
-  cardMuiCard:{
+  cardMuiCard: {
     borderRadius: "8px",
-  }
+  },
+  headerLeftGridMain: {
+    columnGap: "42px",
+    marginTop: "30px",
+    marginBottom: "30px",
+  },
+  headerLeftGrid: {
+    marginTop: "6px",
+  },
+  textField: {
+    width: "658px",
+    marginBottom: "0px",
+    marginTop: "58px",
+    color: "#6D787E",
+    padding: "16px",
+    fontWeight: "700",
+    fontSize: "24px",
+    marginLeft: "475px",
+  },
+  tabs: {
+    marginLeft: "475px",
+    marginTop: "60px",
+  },
+  tabPanel: {
+    marginLeft: "450px",
+    marginRight: "259px",
+  },
 });
 
 export const theme = createTheme({

@@ -13,7 +13,7 @@ interface Handle{
 const ToolBarHeader = (props:Handle) => {
   return (
     <Toolbar >
-       <Grid container columnGap='160px' justifyContent='center'>
+       <Grid container columnGap='160px' justifyContent='center' data-testid="ToolBarHeader">
        <Grid item>
       <HeaderLeft icon={props.icon} handleChange={props.handleChange}  />
      </Grid>

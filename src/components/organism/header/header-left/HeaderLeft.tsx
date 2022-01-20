@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import customStyle from "../../../../Theme";
 import BlinkImage from "../../../atoms/blinkimage/BlinkImage";
 import Explore from "../../../atoms/explore/Explore";
 import MyLibrary from "../../../atoms/mylibrary/mylibrary-text/MyLibrary";
@@ -15,18 +16,19 @@ interface Handle{
 
 
 const HeaderLeft = (props:Handle) => {
+  const classes=customStyle();
   return (
-    <Grid container sx={{ columnGap:'42px'  ,marginTop:'30px',marginBottom:'30px'}}>
-      <Grid item sx={{marginTop:'6px'}}>
+    <Grid container  data-testid="HeaderLeft" className={classes.headerLeftGridMain}>
+      <Grid item className={classes.headerLeftGrid}>
           <BlinkImage />
       </Grid>
-      <Grid item sx={{marginTop:'6px'}}>
+      <Grid item className={classes.headerLeftGrid}>
           <SearchIcon />
       </Grid>
       <Grid item >
         <Explore  icon={props.icon} handleChange={props.handleChange} />
       </Grid>
-      <Grid item sx={{marginTop:'6px'}}>
+      <Grid item className={classes.headerLeftGrid}>
             <MyLibrary />
       </Grid>
     </Grid>
