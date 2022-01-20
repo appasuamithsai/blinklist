@@ -1,6 +1,6 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from 'react';
-import {cleanup, render,screen} from '@testing-library/react';
+import {cleanup, render,screen,fireEvent} from '@testing-library/react';
 import FinishReading from './FinishReading';
 import { MemoryRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
@@ -24,4 +24,12 @@ it('Checking the FinishReading for false',()=>{
     const btn=screen.getByText("Finished Reading");
 
     expect(btn).toBeInTheDocument();
+});
+
+it('Checking OnClick FinishReading',()=>{
+    const func=(item:string)=>{
+        return "Beyond Entrepreneurship 2.0";
+    };
+    render(<MemoryRouter> <FinishReading bookName="Harry Potter" btn={true} handleFinish={func} /> </MemoryRouter>);
+    fireEvent.click(screen.getByText("Finished Reading"));
 });
