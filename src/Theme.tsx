@@ -1,7 +1,7 @@
 import { createTheme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 
-var customStyle = makeStyles({
+let customStyle = makeStyles({
   addToLibBtn: {
     color: "#0365F2",
     width: "100%",
