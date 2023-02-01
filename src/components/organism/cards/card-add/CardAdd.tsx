@@ -16,7 +16,7 @@ interface Mui {
 const CardAdd = (props: Mui) => {
   const classes = customStyle();
   const bookCards = props.details.map((e) => (
-    <Grid item xs={4}>
+    <Grid item xs={4} key={e.name}>
       <Card className={classes.cardStyle}>
         <Grid container direction="column">
           <Grid item>
